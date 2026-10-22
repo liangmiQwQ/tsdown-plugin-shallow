@@ -1,8 +1,5 @@
 # RFC 0001: Shallow Bundling
 
-- Status: Draft
-- Target: tsdown `>=0.21.9`, and Vite+ `vp pack`, which is built on tsdown
-
 ## Summary
 
 Shallow bundling bundles the code of one chosen dependency into a library's output, but keeps that dependency's own dependencies external. The external imports left in the output are then merged into the library's `package.json`, so a consumer who installs the library also gets everything the bundled code imports.
