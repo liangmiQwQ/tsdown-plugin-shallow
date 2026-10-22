@@ -1,0 +1,14 @@
+catalogMode: prefer
+catalog:
+  vite-plus: 1.3.0
+  vite: npm:@voidzero-dev/vite-plus-core@1.3.0
+  '@liangmi/vp-config': 1.0.0
+  typescript: ^7.0.2
+  '@typescript/native-preview': 7.0.0-dev.20260707.2
+  '@types/node': ^26.6.5
+  bumpp: ^12.3.0
+overrides:
+  'vite@*': 'catalog:'
+peerDependencyRules:
+  allowedVersions:
+    vite: '*'
