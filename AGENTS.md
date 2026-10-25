@@ -10,6 +10,10 @@ tsdown's built-in deps plugin decides what to externalize only from the root `pa
 
 Vite+ is used as the project manager and dev toolchain for JavaScript part. Check `node_modules/vite-plus/docs` if you don't know how to use Vite+ features. When you find yourself needing a dev tool a tool is missing, you can check Vite+'s document first.
 
+## Project Layout
+
+Design documents live in `rfcs/`. Read them before changing how the plugin behaves, and update them when the design changes.
+
 ## Rules
 
 Keep JavaScript dependency versions in the default catalog in `pnpm-workspace.yaml`, and reference them with `catalog:` in package manifests.
