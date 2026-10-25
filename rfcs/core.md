@@ -1,4 +1,4 @@
-# RFC 0001: Shallow Bundling
+# `tsdown-plugin-shallow` plugin
 
 ## Summary
 
